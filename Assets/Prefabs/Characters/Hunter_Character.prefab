@@ -117,11 +117,11 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d2a92121ef1e21b4a96d05f38d7aab4c,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 4784012983127076305}
+      addedObject: {fileID: 2399939593949130961}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d2a92121ef1e21b4a96d05f38d7aab4c,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2399939593949130961}
+      addedObject: {fileID: 8612308993042540017}
   m_SourcePrefab: {fileID: 100100000, guid: d2a92121ef1e21b4a96d05f38d7aab4c, type: 3}
 --- !u!1 &3884096287566871987 stripped
 GameObject:
@@ -129,21 +129,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 4118116551198703842}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &4784012983127076305
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3884096287566871987}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52d0ab15381823641942d795a018b2a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 1
-  variableJoystick: {fileID: 0}
-  cam: {fileID: 0}
 --- !u!95 &2399939593949130961
 Animator:
   serializedVersion: 5
@@ -165,6 +150,42 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8612308993042540017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3884096287566871987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52d0ab15381823641942d795a018b2a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  variableJoystick: {fileID: 0}
+  cam: {fileID: 0}
+  TreePrefab: {fileID: 0}
+  MyLight: {fileID: 0}
+  angles:
+  - 5
+  - -5
+  - 10
+  - -10
+  - 15
+  - -15
+  - 20
+  - -20
+  - 25
+  - -25
+  - 30
+  - -30
+  - 35
+  - -35
+  - 40
+  - -40
+  - 45
+  - -45
 --- !u!4 &4516200383875802889 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d2a92121ef1e21b4a96d05f38d7aab4c,

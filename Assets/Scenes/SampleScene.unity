@@ -123,6 +123,101 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &660157016
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3972563356270660423, guid: 5242c4b890e88a149b6ef5c5f9f0f1b5,
+        type: 3}
+      propertyPath: m_Name
+      value: FarmerCharacterPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 5241427985651416232, guid: 5242c4b890e88a149b6ef5c5f9f0f1b5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5241427985651416232, guid: 5242c4b890e88a149b6ef5c5f9f0f1b5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5241427985651416232, guid: 5242c4b890e88a149b6ef5c5f9f0f1b5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 5241427985651416232, guid: 5242c4b890e88a149b6ef5c5f9f0f1b5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5241427985651416232, guid: 5242c4b890e88a149b6ef5c5f9f0f1b5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5241427985651416232, guid: 5242c4b890e88a149b6ef5c5f9f0f1b5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5241427985651416232, guid: 5242c4b890e88a149b6ef5c5f9f0f1b5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5241427985651416232, guid: 5242c4b890e88a149b6ef5c5f9f0f1b5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5241427985651416232, guid: 5242c4b890e88a149b6ef5c5f9f0f1b5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5241427985651416232, guid: 5242c4b890e88a149b6ef5c5f9f0f1b5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6602629150363997343, guid: 5242c4b890e88a149b6ef5c5f9f0f1b5,
+        type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 963194227}
+    - target: {fileID: 6602629150363997343, guid: 5242c4b890e88a149b6ef5c5f9f0f1b5,
+        type: 3}
+      propertyPath: MyLight
+      value: 
+      objectReference: {fileID: 720545773}
+    - target: {fileID: 6602629150363997343, guid: 5242c4b890e88a149b6ef5c5f9f0f1b5,
+        type: 3}
+      propertyPath: TreePrefab
+      value: 
+      objectReference: {fileID: 1896800444786257464, guid: 7ea0e762f6f89fe4e8f1eb9b57d01fdf,
+        type: 3}
+    - target: {fileID: 6602629150363997343, guid: 5242c4b890e88a149b6ef5c5f9f0f1b5,
+        type: 3}
+      propertyPath: GocCayPrefab
+      value: 
+      objectReference: {fileID: 8552875597369523795, guid: 5a4deddbf4703a14293cf2b79d2e2a22,
+        type: 3}
+    - target: {fileID: 6602629150363997343, guid: 5242c4b890e88a149b6ef5c5f9f0f1b5,
+        type: 3}
+      propertyPath: variableJoystick
+      value: 
+      objectReference: {fileID: 1146836898}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5242c4b890e88a149b6ef5c5f9f0f1b5, type: 3}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -579,7 +674,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6224edd86275d4840aeb3022c8d2537f, type: 2}
+  - {fileID: 2100000, guid: abbdf01463fad1d4ab2f9970aa94f627, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -637,10 +732,40 @@ PrefabInstance:
       propertyPath: m_UiScaleMode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1406075073726774991, guid: dfb4b63d8a2fbd84793736297eb1a5ce,
+        type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: 1406075073726774991, guid: dfb4b63d8a2fbd84793736297eb1a5ce,
+        type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 800
+      objectReference: {fileID: 0}
     - target: {fileID: 1849032760921120928, guid: dfb4b63d8a2fbd84793736297eb1a5ce,
         type: 3}
       propertyPath: joystickType
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1849032760921120931, guid: dfb4b63d8a2fbd84793736297eb1a5ce,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1849032760921120931, guid: dfb4b63d8a2fbd84793736297eb1a5ce,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1849032760921120931, guid: dfb4b63d8a2fbd84793736297eb1a5ce,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 1849032760921120931, guid: dfb4b63d8a2fbd84793736297eb1a5ce,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 2385640507341240048, guid: dfb4b63d8a2fbd84793736297eb1a5ce,
         type: 3}
@@ -717,6 +842,26 @@ PrefabInstance:
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7309916491574755877, guid: dfb4b63d8a2fbd84793736297eb1a5ce,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1704571867}
+    - target: {fileID: 7309916491574755877, guid: dfb4b63d8a2fbd84793736297eb1a5ce,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CutTree
+      objectReference: {fileID: 0}
+    - target: {fileID: 7309916491574755877, guid: dfb4b63d8a2fbd84793736297eb1a5ce,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: FarmerCharacterScript, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7309916491574755877, guid: dfb4b63d8a2fbd84793736297eb1a5ce,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 7054483363029437650, guid: dfb4b63d8a2fbd84793736297eb1a5ce, type: 3}
@@ -787,6 +932,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hunter_Character
       objectReference: {fileID: 0}
+    - target: {fileID: 2161365399767703430, guid: 99e87e80c09e0df40ba1e5a8be2a78dd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8612308993042540017, guid: 99e87e80c09e0df40ba1e5a8be2a78dd,
         type: 3}
       propertyPath: cam
@@ -813,6 +963,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99e87e80c09e0df40ba1e5a8be2a78dd, type: 3}
+--- !u!114 &1704571867 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6602629150363997343, guid: 5242c4b890e88a149b6ef5c5f9f0f1b5,
+    type: 3}
+  m_PrefabInstance: {fileID: 660157016}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae1b313c3b67da942a0a431ee8970e2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -824,3 +986,4 @@ SceneRoots:
   - {fileID: 720545775}
   - {fileID: 994105725}
   - {fileID: 1689642881}
+  - {fileID: 660157016}

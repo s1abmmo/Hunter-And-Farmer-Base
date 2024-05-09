@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting.Antlr3.Runtime.Tree;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class FarmerCharacterScript : MonoBehaviour

@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/WaitingRoom.unity
+    guid: 9b9ce80a04c550a44a86b42c57324846
+  - enabled: 1
+    path: Assets/Scenes/PlayingScene.unity
+    guid: c850ee8c3b14cc8459e7e186857cf567
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000,
       guid: aae92c441d64ab4438247f9eb91a44f7, type: 2}

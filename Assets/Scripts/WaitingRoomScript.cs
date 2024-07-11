@@ -32,7 +32,7 @@ public class WaitingRoomScript : MonoBehaviour
     private string myRoomId;
     private bool isHost = false;
 
-    private string api { get; set; } = "http://localhost";
+    private string api { get; set; } = "http://192.168.55.156";
 
     private static readonly HttpClient client = new HttpClient();
 

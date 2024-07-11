@@ -23,9 +23,9 @@ public class ListRoomScript : MonoBehaviour
     Dictionary<string, GameObject> RoomBoxies = new Dictionary<string, GameObject>();
 
     private static readonly HttpClient client = new HttpClient();
-    private readonly string url = "http://localhost/api/Room/GetAllRooms";
-    private readonly string urlPlayerRegister = "http://localhost/api/Player/Register";
-    private readonly string urlCreateRoom = "http://localhost/api/Room/CreateRoom";
+    private readonly string url = "http://192.168.55.156/api/Room/GetAllRooms";
+    private readonly string urlPlayerRegister = "http://192.168.55.156/api/Player/Register";
+    private readonly string urlCreateRoom = "http://192.168.55.156/api/Room/CreateRoom";
 
     private string idRoomWantJoin;
     private string myTokenPlayer;
